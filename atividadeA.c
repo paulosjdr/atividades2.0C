@@ -12,11 +12,11 @@ int main()
 
     printf("Os números inteiros de 15 a 200 elevados ao quadrado:\n\n");
 
-    //fazer a leitura do número 15, menor ou igual a 200
+    //fazer a leitura dos valores de 15 a 200
     for (i = 15; i <= 200; i++) {
-        //fazer a operação do quadrado dos números    
+    //fazer a operação do quadrado dos números    
         int quadrado = i * i;
-        //mostrar o resultado do quadrado dos números
+    //mostrar o resultado do quadrado dos números
         printf("%d^2 = %d\n", i, quadrado);
     }
 
